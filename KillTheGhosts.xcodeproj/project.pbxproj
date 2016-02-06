@@ -8,24 +8,48 @@
 
 /* Begin PBXBuildFile section */
 		883967371C6594A8007CD84A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883967361C6594A8007CD84A /* AppDelegate.swift */; };
-		883967391C6594A8007CD84A /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 883967381C6594A8007CD84A /* GameScene.sks */; };
 		8839673B1C6594A8007CD84A /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8839673A1C6594A8007CD84A /* GameScene.swift */; };
 		8839673D1C6594A8007CD84A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8839673C1C6594A8007CD84A /* GameViewController.swift */; };
 		883967401C6594A8007CD84A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8839673E1C6594A8007CD84A /* Main.storyboard */; };
 		883967421C6594A8007CD84A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 883967411C6594A8007CD84A /* Assets.xcassets */; };
 		883967451C6594A8007CD84A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 883967431C6594A8007CD84A /* LaunchScreen.storyboard */; };
+		883967521C6595CE007CD84A /* monster.png in Resources */ = {isa = PBXBuildFile; fileRef = 8839674C1C6595CE007CD84A /* monster.png */; };
+		883967531C6595CE007CD84A /* monster@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8839674D1C6595CE007CD84A /* monster@2x.png */; };
+		883967541C6595CE007CD84A /* player.png in Resources */ = {isa = PBXBuildFile; fileRef = 8839674E1C6595CE007CD84A /* player.png */; };
+		883967551C6595CE007CD84A /* player@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8839674F1C6595CE007CD84A /* player@2x.png */; };
+		883967561C6595CE007CD84A /* projectile.png in Resources */ = {isa = PBXBuildFile; fileRef = 883967501C6595CE007CD84A /* projectile.png */; };
+		883967571C6595CE007CD84A /* projectile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 883967511C6595CE007CD84A /* projectile@2x.png */; };
+		8839675A1C659DF5007CD84A /* PhysicsCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883967591C659DF5007CD84A /* PhysicsCategory.swift */; };
+		8839675D1C65AE84007CD84A /* pew-pew-lei.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8839675C1C65A8A9007CD84A /* pew-pew-lei.caf */; };
+		8839675E1C65AE87007CD84A /* background-music-aac.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8839675B1C65A8A9007CD84A /* background-music-aac.caf */; };
+		883967601C65AF5F007CD84A /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8839675F1C65AF5F007CD84A /* GameOverScene.swift */; };
+		883967621C65B27B007CD84A /* skaduush.caf in Resources */ = {isa = PBXBuildFile; fileRef = 883967611C65B27B007CD84A /* skaduush.caf */; };
+		883967661C65B5EA007CD84A /* you-won.caf in Resources */ = {isa = PBXBuildFile; fileRef = 883967651C65B5EA007CD84A /* you-won.caf */; };
+		883967681C65B670007CD84A /* you-lose.caf in Resources */ = {isa = PBXBuildFile; fileRef = 883967671C65B670007CD84A /* you-lose.caf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		883967331C6594A8007CD84A /* KillTheGhosts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KillTheGhosts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		883967361C6594A8007CD84A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		883967381C6594A8007CD84A /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		8839673A1C6594A8007CD84A /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		8839673C1C6594A8007CD84A /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		8839673F1C6594A8007CD84A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		883967411C6594A8007CD84A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		883967441C6594A8007CD84A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		883967461C6594A8007CD84A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8839674C1C6595CE007CD84A /* monster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monster.png; sourceTree = "<group>"; };
+		8839674D1C6595CE007CD84A /* monster@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "monster@2x.png"; sourceTree = "<group>"; };
+		8839674E1C6595CE007CD84A /* player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player.png; sourceTree = "<group>"; };
+		8839674F1C6595CE007CD84A /* player@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player@2x.png"; sourceTree = "<group>"; };
+		883967501C6595CE007CD84A /* projectile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = projectile.png; sourceTree = "<group>"; };
+		883967511C6595CE007CD84A /* projectile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "projectile@2x.png"; sourceTree = "<group>"; };
+		883967591C659DF5007CD84A /* PhysicsCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhysicsCategory.swift; sourceTree = "<group>"; };
+		8839675B1C65A8A9007CD84A /* background-music-aac.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "background-music-aac.caf"; sourceTree = "<group>"; };
+		8839675C1C65A8A9007CD84A /* pew-pew-lei.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pew-pew-lei.caf"; sourceTree = "<group>"; };
+		8839675F1C65AF5F007CD84A /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		883967611C65B27B007CD84A /* skaduush.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = skaduush.caf; sourceTree = "<group>"; };
+		883967651C65B5EA007CD84A /* you-won.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "you-won.caf"; sourceTree = "<group>"; };
+		883967671C65B670007CD84A /* you-lose.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "you-lose.caf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +82,36 @@
 		883967351C6594A8007CD84A /* KillTheGhosts */ = {
 			isa = PBXGroup;
 			children = (
+				883967671C65B670007CD84A /* you-lose.caf */,
+				883967651C65B5EA007CD84A /* you-won.caf */,
+				883967611C65B27B007CD84A /* skaduush.caf */,
+				883967581C6595EE007CD84A /* sprites */,
+				8839675B1C65A8A9007CD84A /* background-music-aac.caf */,
+				8839675C1C65A8A9007CD84A /* pew-pew-lei.caf */,
 				883967361C6594A8007CD84A /* AppDelegate.swift */,
-				883967381C6594A8007CD84A /* GameScene.sks */,
 				8839673A1C6594A8007CD84A /* GameScene.swift */,
 				8839673C1C6594A8007CD84A /* GameViewController.swift */,
 				8839673E1C6594A8007CD84A /* Main.storyboard */,
 				883967411C6594A8007CD84A /* Assets.xcassets */,
 				883967431C6594A8007CD84A /* LaunchScreen.storyboard */,
 				883967461C6594A8007CD84A /* Info.plist */,
+				883967591C659DF5007CD84A /* PhysicsCategory.swift */,
+				8839675F1C65AF5F007CD84A /* GameOverScene.swift */,
 			);
 			path = KillTheGhosts;
+			sourceTree = "<group>";
+		};
+		883967581C6595EE007CD84A /* sprites */ = {
+			isa = PBXGroup;
+			children = (
+				8839674C1C6595CE007CD84A /* monster.png */,
+				8839674D1C6595CE007CD84A /* monster@2x.png */,
+				8839674E1C6595CE007CD84A /* player.png */,
+				8839674F1C6595CE007CD84A /* player@2x.png */,
+				883967501C6595CE007CD84A /* projectile.png */,
+				883967511C6595CE007CD84A /* projectile@2x.png */,
+			);
+			name = sprites;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,10 +172,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				883967391C6594A8007CD84A /* GameScene.sks in Resources */,
 				883967451C6594A8007CD84A /* LaunchScreen.storyboard in Resources */,
+				883967681C65B670007CD84A /* you-lose.caf in Resources */,
+				883967551C6595CE007CD84A /* player@2x.png in Resources */,
+				883967561C6595CE007CD84A /* projectile.png in Resources */,
+				8839675D1C65AE84007CD84A /* pew-pew-lei.caf in Resources */,
 				883967421C6594A8007CD84A /* Assets.xcassets in Resources */,
+				8839675E1C65AE87007CD84A /* background-music-aac.caf in Resources */,
+				883967541C6595CE007CD84A /* player.png in Resources */,
+				883967521C6595CE007CD84A /* monster.png in Resources */,
+				883967621C65B27B007CD84A /* skaduush.caf in Resources */,
+				883967661C65B5EA007CD84A /* you-won.caf in Resources */,
+				883967571C6595CE007CD84A /* projectile@2x.png in Resources */,
 				883967401C6594A8007CD84A /* Main.storyboard in Resources */,
+				883967531C6595CE007CD84A /* monster@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,7 +196,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				883967601C65AF5F007CD84A /* GameOverScene.swift in Sources */,
 				8839673B1C6594A8007CD84A /* GameScene.swift in Sources */,
+				8839675A1C659DF5007CD84A /* PhysicsCategory.swift in Sources */,
 				8839673D1C6594A8007CD84A /* GameViewController.swift in Sources */,
 				883967371C6594A8007CD84A /* AppDelegate.swift in Sources */,
 			);
